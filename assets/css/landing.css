@@ -1,0 +1,79 @@
+:root {
+    --black: #0D1B2A;
+    --blue: #1B263B;
+    --beige: #DCE2C8;
+    --red: #9E2B25;
+    --philosopher: 'Philosopher', sans-serif;
+    --playfair: 'Playfair Display', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--playfair);
+    background-image: url('../img/cloudy-trees.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    color: var(--black);
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    font-size: 500%;
+    color: var(--red);
+    font-family: var(--playfair);
+    margin: -20px;
+}
+
+span {
+    font-family: var(--philosopher);
+    color: black;
+}
+
+.description {
+    font-size: 200%;
+    color: white;
+}
+
+.student {
+    font-size: 150%;
+    margin-bottom: 20px;
+    color: var(--beige);
+}
+
+nav {
+    margin: 20px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: var(--red);
+    text-decoration: none;
+    font-size: 160%;
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
