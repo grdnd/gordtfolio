@@ -42,7 +42,7 @@ span {
 }
 
 .description {
-    font-size: 200%;
+    font-size: 250%;
     color: white;
 }
 
@@ -52,9 +52,25 @@ span {
     color: var(--beige);
 }
 
+.button,
+.dropdown-content {
+    background-color: black;
+    width: 250px;
+}
+
+.mWork,
+.fa-angle-down {
+    color: white;
+}
+
+.dropdown-item {
+    color: var(--red);
+}
+
 nav {
     margin: 20px;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
