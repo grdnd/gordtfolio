@@ -3,8 +3,8 @@
     --blue: #1B263B;
     --beige: #DCE2C8;
     --red: #9E2B25;
-    --philosopher: 'Philosopher', sans-serif;
     --playfair: 'Playfair Display', serif;
+    --lora: 'Lora', serif;
 }
 
 * {
@@ -19,6 +19,7 @@ body {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+    opacity: 80%;
     height: 100vh;
     width: 100vw;
 }
@@ -30,32 +31,52 @@ main {
 }
 
 .name {
-    font-size: 500%;
+    font-size: 550%;
     color: var(--red);
     font-family: var(--playfair);
     margin: -20px;
+    opacity: 100%;
 }
 
 span {
-    font-family: var(--philosopher);
+    font-family: var(--lora);
     color: black;
 }
 
 .description {
     font-size: 250%;
-    color: white;
+    color: black;
+    font-family: var(--playfair);
+    font-style: italic;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.description:hover {
+    opacity: 100%;
 }
 
 .student {
     font-size: 150%;
+    font-family: var(--lora);
     margin-bottom: 20px;
     color: var(--beige);
+    opacity: 60%;
+}
+
+.student:hover {
+    opacity: 100%;
 }
 
 .button,
 .dropdown-content {
     background-color: black;
     width: 250px;
+}
+
+.button {
+    font-family: var(--playfair);
+    font-size: 110%;
 }
 
 .mWork,
@@ -65,6 +86,13 @@ span {
 
 .dropdown-item {
     color: var(--red);
+    font-family: var(--lora);
+    font-size: 110%;
+}
+
+hr {
+    opacity: 50%;
+    margin-top: 30px;
 }
 
 nav {
@@ -84,12 +112,10 @@ nav li {
 nav a {
     color: var(--red);
     text-decoration: none;
-    font-size: 160%;
+    font-size: 200%;
     margin: 10px;
 }
 
 .hidden {
     display: none;
 }
-
-
