@@ -13,17 +13,19 @@
 }
 
 body {
+    /* background-color: var(--red); */
     font-family: var(--playfair);
     font-style: italic;
+    height: 100%;
+    width: 100%;
 }
 
 /* Nav Styling */
 nav {
-    background-image: url(../img/photographer-white.jpg);
-    background-color: var(--tan);
-    background-position: center center;
+    /* background-color: var(--red); */
+    /* background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height: 100vh;
     width: auto;
     position: fixed;
@@ -36,7 +38,6 @@ nav li {
 
 nav a {
     margin: 10px;
-    text-decoration: none;
 }
 
 nav i {
@@ -48,12 +49,81 @@ nav i:hover {
     color: var(--lightblue);
 }
 
+main {
+    height: auto;
+    width: auto;
+}
+
 .header {
-    font-size: 250%;
-    margin-left: 47px;
-    padding: 10px;
+    background-image: url('../img/cloud-trees-cropped.jpg');
+    background-position: center -630px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 300%;
+    padding: 0 20px 10px 0px;
+    position: relative;
+}
+
+header {
+    color: var(--red);
+    margin-left: 460px;
 }
 
 hr {
     margin-left: 48px;
+    height: 0.5px;
+    background-color: gray;
+}
+
+.container {
+    font-family: var(--lora);
+    text-align: center;
+}
+
+.tabs {
+    /* margin-bottom: 0;
+    border: 1px solid black; */
+}
+
+.tab-content-container {
+    width: 80%;
+}
+
+.tab-content {
+    border: 1px solid black;
+}
+
+.tab-title {
+    font-size: 200%;
+    margin: 5px;
+}
+
+.project-image {
+    height: auto;
+    width: 700px;
+    border: 1px solid black;
+}
+
+.hover {
+    opacity: 30%;
+}
+
+.redirect {
+    margin-bottom: 10px;
+    font-size: 150%;
+}
+
+.repo-link {
+    color: var(--red);
+    margin: 0 20px;
+}
+
+footer {
+    border-top: 1px solid black;
+    
+    height: 200px;
+}
+
+.hidden {
+    display: none;
 }

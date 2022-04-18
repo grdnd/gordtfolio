@@ -30,17 +30,17 @@
       </li>
       <li>
         <a href="#" class="linkedIn" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin" title="linkedIn"></i>
         </a>
       </li>
       <li>
         <a href="https://github.com/grdnd" class="github" target="_blank">
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github" title="github"></i>
         </a>
       </li>
       <li>
         <a href="mailto:gordfolio@gmail.com?subject=Let Me Know You Have Landed" class="email" target="_blank">
-          <i class="fa-solid fa-at"></i>
+          <i class="fa-solid fa-at" title="email"></i>
         </a>
       </li>
     </ul>
@@ -49,88 +49,126 @@
 
   <!-- Header  -->
 
-  <div class="header is-flex is-justify-content-right is-align-items-center">
+  <div class="header is-flex is-justify-content-left is-align-items-center">
     <header class="head">
         <h1>Projects</h1>
     </header>
   </div>
 
-  <!-- Project Links -->
+  <!-- Project Tabs -->
 
-  <section class="container is-flex is-justify-content-center is-flex-direction-row">
-    <ul>
-      <li>
-          <a href="#">I</a> |
-      </li>
-    </ul>
-    <ul>
-      <li>
-          <a href="#">II</a> |
-      </li>
-    </ul>
-    <ul>
-      <li>
-          <a href="#">III</a> |
-      </li>
-    </ul>
-    <ul>
-      <li>
-          <a href="#">IV</a> |
-      </li>
-    </ul>
-    <ul>
-      <li>
-          <a href="#">V</a>
-      </li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <!-- Project Display -->
-
-  <div class="container">
-      <div class="project-display">
-          <ul>
-              <li></li>
-          </ul>
-      </div>
-  </div>
-
-  <hr>
-
-  <!-- Project Links -->
-
-  <div class="container is-flex is-justify-content-center is-flex-direction-row">
+  <main class="container" id="tabs-with-content">
+    <div class="tabs is-medium is-centered">
       <ul>
-          <li>
-              <a href="#">VI</a> |
-          </li>
+        <li class="is-active"><a>I</a></li> |
+        <li><a>II</a></li> |
+        <li><a>III</a></li> |
+        <li><a>IV</a></li> |
+        <li><a>V</a></li> |
+        <li><a>VI</a></li>
       </ul>
-      <ul>
-          <li>
-              <a href="#">VII</a> |
-          </li>
-      </ul>
-      <ul>
-          <li>
-              <a href="#">VIII</a> |
-          </li>
-      </ul>
-      <ul>
-          <li>
-              <a href="#">IX</a> |
-          </li>
-      </ul>
-      <ul>
-          <li>
-              <a href="#">X</a>
-          </li>
-      </ul>
-  </div>
-
+    </div>
     
-  <footer class="is-flex is-justify-content-flex-end>
+    <!-- Project Tabs Display -->
+
+    <div class="container tab-content-container">
+
+      <!-- Projet 6 -->
+      
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Sustainable Clothing Co.</h1>
+          <h1 class="">E-Commerce Back End</h1>
+          <!-- <img src="./assets/img/dayPlanner.jpg" class="is-flex project-image"> -->
+          <p class="project-description">A simple daytime task handler for your typical 9-5 workday.</p>
+          <p class="tech">Built with:</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/microjess/project2" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://groupprojectii-app.herokuapp.com//" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Day Planner -->
+
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Day Planner</h1>
+          <img src="./assets/img/dayPlanner.jpg" class="is-flex project-image">
+          <p class="project-description">A simple daytime task handler for your typical 9-5 workday.</p>
+          <p class="tech">Built with HTML, CSS, JavaScript, JQuery, Third-Party APIs</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/grdnd/dayPlanner" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://grdnd.github.io/dayPlanner/" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Password Generator -->
+
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Password Generator</h1>
+          <img src="./assets/img/passwordGenerator.jpg" class="is-flex project-image">
+          <p class="project-description">A minimalistic password generator</p>
+          <p class="tech">Built with:</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/grdnd/myPassNow" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://grdnd.github.io/myPassNow/" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Coding Quiz -->
+
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Coding Quiz</h1>
+          <img src="./assets/img/codingQuiz.jpg" class="is-flex project-image">
+          <p class="project-description">A simple daytime task handler for your typical 9-5 workday.</p>
+          <p class="tech">Built with:</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/grdnd/coding-quiz" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://grdnd.github.io/coding-quiz/" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project 4 -->
+
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Day Planner</h1>
+          <!-- <img src="./assets/img/dayPlanner.jpg" class="is-flex project-image"> -->
+          <p class="project-description">A simple daytime task handler for your typical 9-5 workday.</p>
+          <p class="tech">Built with:</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/grdnd/myPassNow" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://grdnd.github.io/myPassNow/" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project 5 -->
+
+      <section class="tab-content is-flex is-justify-content-center">
+        <div class="project-card">
+          <h1 class="tab-title">Day Planner</h1>
+          <!-- <img src="./assets/img/dayPlanner.jpg" class="is-flex project-image"> -->
+          <p class="project-description">A simple daytime task handler for your typical 9-5 workday.</p>
+          <p class="tech">Built with:</p>
+          <div class="redirect is-flex is-justify-content-right">
+            <a href="https://github.com/grdnd/myPassNow" class="repo-link" target="_blank"><i class="fa-solid fa-folder-closed" title="Click here to access my Github repository!"></i></a>
+            <p><a href="https://grdnd.github.io/myPassNow/" target="_blank"><i class="fa-solid fa-diagram-project" title="Try it here!"></i></a></p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <hr>
+  </main>  
+    
+  <footer class="is-flex is-justify-content-center">
     footer
   </footer>
 
