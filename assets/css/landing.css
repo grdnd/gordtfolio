@@ -110,10 +110,16 @@ nav li {
 }
 
 nav a {
-    color: var(--red);
+    color: black;
     text-decoration: none;
     font-size: 200%;
     margin: 10px;
+    opacity: 60%;
+}
+
+nav a:hover {
+    color: var(--red);
+    opacity: 100%;
 }
 
 .hidden {
