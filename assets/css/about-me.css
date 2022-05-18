@@ -1,0 +1,77 @@
+:root {
+  --black: #0d1b2a;
+  --blue: #1b263b;
+  --beige: #dce2c8;
+  --red: #9e2b25;
+  --playfair: "Playfair Display", serif;
+  --lora: "Lora", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--playfair);
+  background-image: url("../images/background-images/cloudy-trees.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  opacity: 80%;
+  height: auto;
+  width: auto;
+}
+
+/* Nav Styling */
+nav {
+  height: 100vh;
+  width: auto;
+  position: fixed;
+  border-right: 1px solid gray;
+}
+
+.nav-links-container {
+  margin: auto;
+}
+
+nav li {
+  margin: 20px 0px;
+}
+
+nav a {
+  margin: 10px;
+}
+
+nav i {
+  font-size: 25px;
+  color: black;
+}
+
+nav i:hover {
+  color: var(--lightblue);
+}
+
+/* Header Styling */
+header {
+  color: var(--red);
+  font-size: 400%;
+  margin-right: 48px;
+  padding: 24px;
+}
+
+/* About Me */
+.about-me-container {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #242424;
+  opacity: 100%;
+  margin-left: 96px;
+  padding: 50px;
+  width: 70%;
+}
+
+.about-me-text {
+  font-size: 2rem;
+}
